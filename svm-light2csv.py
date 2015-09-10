@@ -26,8 +26,7 @@ with open(f, 'r') as inf:
                 val = record[i]
             else:
                 print 'missing value %d' %i
-                print l
-                val = ', '
+                val = '0, '
 
             if i == 8:
                 fout.write(val)
